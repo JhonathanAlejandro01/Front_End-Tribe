@@ -1,0 +1,8 @@
+.ButtonJoin{
+    align-items: center;
+    background-color: rgb(141, 103, 221);
+    border-radius: 5px;
+    display: flex;
+    height: 44px;
+    justify-content: center;
+}
