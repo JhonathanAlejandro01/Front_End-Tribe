@@ -4,6 +4,7 @@ import JoinSpace from './JoinSpace'
 import ButtonJoin from './ButtonJoin'
 import NameTribe from './NameTribe'
 import Video from './Video'
+import Footer from './Footer'
 
 
 const Cointainer = () => {
@@ -15,6 +16,7 @@ const Cointainer = () => {
                 <Video />
                 <ButtonJoin />
             </div>
+            <Footer />
         </div>
     );
 }
