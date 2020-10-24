@@ -1,0 +1,20 @@
+.App-header {
+  background-color:  rgb(141, 103, 221);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-family: Inter,sans-serif;
+}
+
+.App-link {
+  color: white;
+  background-color:   rgb(25, 18, 41);
+  padding: 10px;
+  border-radius: 5px;
+  font-family: Inter,sans-serif;
+}
+
