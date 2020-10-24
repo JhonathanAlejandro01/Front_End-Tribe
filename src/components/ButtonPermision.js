@@ -1,8 +1,11 @@
 import React from 'react'
+import '../assets/css/ButtonPermision.css'
 
 const ButtonPermision = () => {
     return (
-        <button type="button" class="btn btn-info">Grant Permission</button>
+        <div class="d-flex justify-content-center">
+            <button type="button" class="btn buttonpermision">Grand Permision</button>
+        </div>
     );
 }
 

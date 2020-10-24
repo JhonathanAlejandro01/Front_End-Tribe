@@ -1,0 +1,15 @@
+.buttonpermision {
+    color: #e7e7e7;
+    background-color: rgb(141, 103, 221);
+    font-size: 18px;
+    font-weight: 20;
+    border-radius: 5px;
+    padding: 8px;
+    border: 2px solid rgb(141, 103, 221);
+    font-family: Inter,sans-serif;
+}
+
+.buttonpermision:hover{
+    opacity: 0.8;
+    color: white;
+}

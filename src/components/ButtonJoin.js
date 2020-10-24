@@ -1,8 +1,12 @@
 import React from 'react';
+import '../assets/css/ButtonJoin.css'
 
 const ButtonJoin = () => {
     return (
-        <button type="button" class="btn btn-primary btn-lg btn-block buttonjoin">Join</button>
+        <div class="d-flex justify-content-center">
+            <button type="button" class="btn mx-2 buttonjoin">Blur</button>
+            <button type="button" class="btn mx-2 buttonjoin">Backgound</button>
+        </div>
     );
 }
 

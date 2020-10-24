@@ -1,8 +1,21 @@
-.ButtonJoin{
+.buttonjoin{
     align-items: center;
     background-color: rgb(141, 103, 221);
+    border: rgb(141, 103, 221);
     border-radius: 5px;
-    display: flex;
     height: 44px;
     justify-content: center;
+    color: white;
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+        0 2px 2px 0 rgba(0, 0, 0, 0.14),
+        0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    width: 110px;
+}
+
+.buttonjoin:hover{
+    opacity: 0.8;
+}
+
+.buttonjoin:focus {
+    background-color: rgb(52, 145, 15);
 }
