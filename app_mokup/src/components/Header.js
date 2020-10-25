@@ -5,5 +5,5 @@ const Header = () => {
         <p>TRIBE</p>
     );
 }
- 
+
 export default Header;
