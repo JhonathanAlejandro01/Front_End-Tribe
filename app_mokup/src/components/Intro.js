@@ -14,7 +14,7 @@ const Intro = () => {
             <div className="row">
                 <div className="col-6">
                     <h1 className="titulo">Effect Virtual Background</h1>
-                    <Link to="/app" class="btn btn-primary">Lest's Go!</Link>
+                    <Link to="/app" class="btn btn-primary shadow ml-5 mt-5 p-3">Lest's Go!</Link>
                 </div>
                 <div className="col-6">
                     <p>colocar imagen aqui.
