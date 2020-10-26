@@ -4,8 +4,8 @@ import '../assets/css/ButtonJoin.css'
 const ButtonJoin = () => {
     return (
         <div class="d-flex justify-content-center">
-            <button type="button" class="btn mx-2 buttonjoin">Blur</button>
-            <button type="button" class="btn mx-2 buttonjoin">Backgound</button>
+            <button id="btnBlur" type="button" class="btn mx-2 buttonjoin">Blur</button>
+            <button id="btnVirtualBackground" type="button" class="btn mx-2 buttonjoin">Backgound</button>
         </div>
     );
 }

@@ -1,4 +1,9 @@
 .video{
+    display: flex;
     background-color: #222c34;
     border-radius: 5px;
+    width: 640px;
+    height: 360px;
+    align-items: center;
+    flex-direction: column; 
 }
