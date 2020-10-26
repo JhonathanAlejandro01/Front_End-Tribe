@@ -2,6 +2,7 @@ import React from 'react'
 import Intro from '../components/Intro'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import App from '../pages/App'
+import Feature from '../components/Feature'
 
 const LandingPage = () => {
     return (
@@ -12,6 +13,7 @@ const LandingPage = () => {
                 </Route>
                 <Route path="/">
                     <Intro />
+                    <Feature />
                 </Route>
             </Switch>
         </Router>
