@@ -17,7 +17,7 @@ const Navbar = () => {
           <a className="nav-link" data-scroll href="#about">About</a>
         </div>
         <div>
-          <Link to="/app" class="btn btn-primary">App</Link>
+          <Link to="/app" class="btn btn-danger">App</Link>
         </div>
       </div>
       </nav>

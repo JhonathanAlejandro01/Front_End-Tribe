@@ -19,28 +19,28 @@ const Carousel = () => {
                 <div class="carousel-item active ht">
                     <img src={Background} class="d-block w-100" alt="Effect Background"></img>
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Virtual Background</h5>
+                        <h3>Virtual Background</h3>
                         <p>Replace the background with a default image.</p>
                     </div>
                 </div>
                 <div class="carousel-item ht">
                     <img src={Blur} class="d-block w-100" alt="Effect Blur"></img>
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Effect Blur</h5>
+                        <h3>Effect Blur</h3>
                         <p>Blurs the background making it blurry.</p>
                     </div>
                 </div>
                 <div class="carousel-item ht">
                     <img src={CaraBlur} class="d-block w-100" alt="Effect CFace with Blur"></img>
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Blur BodyPart</h5>
+                        <h3>Blur BodyPart</h3>
                         <p>Perform the Blur effect on a body part.</p>
                     </div>
                 </div>
                 <div class="carousel-item ht">
                     <img src={GrayScale} class="d-block w-100" alt="Effect Gray Scale"></img>
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Effect Gray Scale</h5>
+                        <h3>Effect Gray Scale</h3>
                         <p>Everything around the person changes color to grayscale.</p>
                     </div>
                 </div>
