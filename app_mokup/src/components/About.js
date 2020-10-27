@@ -3,7 +3,7 @@ import Cards from './Cards'
 
 const About = () => {
     return (
-        <div id="about">
+        <div className="mt-5" id="about">
         <Cards />
         </div>
     )

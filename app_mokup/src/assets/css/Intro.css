@@ -1,5 +1,5 @@
 .intro {
-    background-color:  rgb(125, 94, 192);
+    background: linear-gradient( rgb(125, 94, 192) 99%, white);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -12,6 +12,7 @@
 .titulo{
     font-weight: 800;
     font-size: 40pt;
+    margin-left: 60px;
 }
 
 .shadow{
@@ -19,4 +20,5 @@
         0 2px 2px 0 rgba(0, 0, 0, 0.14),
         0 1px 5px 0 rgba(0, 0, 0, 0.12);
     font-weight: 800;
+    margin-left: 60px;
 }
