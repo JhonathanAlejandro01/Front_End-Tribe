@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import '../assets/css/Navbar.css'
+import ButtonDark from './ButtonDark'
+
 
 
 const Navbar = () => {
@@ -10,11 +12,10 @@ const Navbar = () => {
         <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div className="navbar-nav mr-auto">
-          {// eslint-disable-next-line
-          }<a className="nav-link" data-scroll href="#">Home</a>
-          <a className="nav-link" data-scroll href="#feature">Features</a>
-          <a className="nav-link" data-scroll href="#about">About</a>
+          <div className="navbar-nav mr-auto" id="navacti">
+          <a className="nav-link" href="#home">Home</a>
+          <a className="nav-link" href="#feature">Features</a>
+          <a className="nav-link" href="#about">About</a>
         </div>
         <div>
           <Link to="/app" class="btn btn-danger">App</Link>

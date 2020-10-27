@@ -12,7 +12,7 @@ const About = () => {
             <Cards />
             <div className="container">
             <a href="https://github.com/hectorlopezv" target="blank">
-                <button type="button" class="btn btn-danger btn-lg btn-block my-4 btnr"><FontAwesomeIcon icon={faGithub} className="mx-2" />Repositorie</button>
+                <button type="button" className="btn btn-danger btn-lg btn-block my-4 btnr"><FontAwesomeIcon icon={faGithub} className="mx-2" />Repositorie</button>
             </a>
             </div>
         </div>

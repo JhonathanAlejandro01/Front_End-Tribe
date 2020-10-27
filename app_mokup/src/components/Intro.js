@@ -11,7 +11,7 @@ const Intro = () => {
     return (
         <>
         <Navbar />
-        <div className="container-fluid intro">
+        <div className="container-fluid intro" id="home">
             <div className="row  align-items-center justify-content-around">
                 <div className="col-6 justify-content-center">
                     <h1 className="titulo display-3">Effect Virtual Background</h1>
